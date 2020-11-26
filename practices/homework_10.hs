@@ -1,5 +1,8 @@
 abc :: [Char]
 abc = ['A'..'Z']
 
--- isValidLetter::Char->[a]->Bool
--- isValidLetter
+isValidLetter::Char->[Char]->Bool
+isValidLetter c l= elem c l
+
+-- startState::[Char]->String->([Char],[Char],[Char])
+-- startState 
